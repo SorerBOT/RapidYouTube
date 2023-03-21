@@ -1,9 +1,20 @@
-
 {
     "manifest_version": 2,
     "name": "RapidYouTube",
     "version": "1.0",
 
     "description": "Allow setting a costum speed in YouTube",
-    "homepage_url": "https://github.com/SorerBOT/RapidYouTube"
+    "homepage_url": "https://github.com/SorerBOT/RapidYouTube",
+    "icons": {
+        "48": "icons/speed-svgrepo-com.svg"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+
+    "browser_action": {
+        "default_icon": "icons/speed-svgrepo-com.svg",
+        "default_title": "RapidYouTube",
+        "default_popup": "popup/popup.html"
+    }
 }
