@@ -1,0 +1,9 @@
+
+{
+    "manifest_version": 2,
+    "name": "RapidYouTube",
+    "version": "1.0",
+
+    "description": "Allow setting a costum speed in YouTube",
+    "homepage_url": "https://github.com/SorerBOT/RapidYouTube"
+}
